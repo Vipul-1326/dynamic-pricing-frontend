@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import { getProducts, runPricingInference } from '@/services/pricingService';
-import PriceChart from '@/components/PriceChart';
+import PriceChart from '@/components/pricechart';
 import { formatCurrency } from '@/lib/utils';
 
 export default function SimulatorPage() {

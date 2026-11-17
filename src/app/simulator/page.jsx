@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from 'react';
-import { getProducts, runPricingInference } from '../../services/pricingService';
-import PriceChart from '../../components/PriceChart';
-import { formatCurrency } from '../../lib/utils';
+import { getProducts, runPricingInference } from '@/services/pricingService';
+import PriceChart from '@/components/PriceChart';
+import { formatCurrency } from '@/lib/utils';
 
 export default function SimulatorPage() {
     const [products, setProducts] = useState([]);
